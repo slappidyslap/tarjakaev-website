@@ -79,6 +79,8 @@ body {
   font-size: var(--font-size-sm);
   transition: background-color 0.2s ease, color 0.2s ease,
     border-color 0.2s ease;
+
+  cursor: pointer;
 }
 
 .button:hover {
@@ -112,7 +114,7 @@ body {
 .hero-button {
   background: var(--color-accent);
   color: var(--color-surface);
-  border: none;
+  border: none !important;
   border-radius: var(--radius-lg);
   font-size: var(--font-size-base);
   margin-bottom: var(--spacing-md);
